@@ -22,12 +22,12 @@ So lets see what shopware offers:
 - [3D Viewer Block for Shopping Experiences](https://docs.shopware.com/en/shopware-6-en/features/3d-viewer-for-shoppingexperiences)
 - [Immersive Elements](https://docs.shopware.com/en/shopware-6-en/features/shopware-rise/immersive-elements)
 - [Advanced Search](https://docs.shopware.com/en/shopware-6-en/features/advanced-search)
-- CMS extensions(https://docs.shopware.com/en/shopware-6-en/features/cms-extensions)
-- CMS rules(https://docs.shopware.com/en/shopware-6-en/features/cms-rules)
-- Dynamic Access(https://docs.shopware.com/en/shopware-6-en/features/dynamic-access)
-- Publisher(https://docs.shopware.com/en/shopware-6-en/features/publisher)
-- Customer-specific pricing(https://docs.shopware.com/en/shopware-6-en/features/customer-specific-pricing)
-- Multi-inventory(https://docs.shopware.com/en/shopware-6-en/features/multi-inventory)
+- [CMS extensions](https://docs.shopware.com/en/shopware-6-en/features/cms-extensions)
+- [CMS rules](https://docs.shopware.com/en/shopware-6-en/features/cms-rules)
+- [Dynamic Access](https://docs.shopware.com/en/shopware-6-en/features/dynamic-access)
+- [Publisher](https://docs.shopware.com/en/shopware-6-en/features/publisher)
+- [Customer-specific pricing](https://docs.shopware.com/en/shopware-6-en/features/customer-specific-pricing)
+- [Multi-inventory](https://docs.shopware.com/en/shopware-6-en/features/multi-inventory)
 
 ## Commercial features
 

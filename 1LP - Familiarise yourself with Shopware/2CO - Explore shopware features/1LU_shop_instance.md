@@ -15,4 +15,4 @@ On your Shopware account homepage, navigate to the "More functions in the accoun
 
 After the environment is ready, a tile will appear providing vital information such as the remaining runtime, live status, and URLs for both administration and the storefront.
 
-Start exploring all that Shopware has to offer.
+[Start exploring](https://docs.shopware.com/en/shopware-6-en/configuration) all that Shopware has to offer.

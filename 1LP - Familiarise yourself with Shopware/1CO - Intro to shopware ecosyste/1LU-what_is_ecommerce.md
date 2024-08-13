@@ -9,9 +9,7 @@ visibility: "public"
 
 # Introduction
 
-Imagine you have newly joined a small startup company as a developer. Your team has a task to build an ecommerce store for a client, TechWorld. 
-
-Having no idea about eCommerce and its working, here we guide you from the very basic how to start this project. So lets get going.
+Imagine you have newly joined a small startup company as a developer. Your team has a task to build an ecommerce store for a client, TekUniverse. Having no idea about eCommerce and its working, here we guide you from the very basics on how to start this project. So lets get going!
 
 ## What is ecommerce?
 
@@ -19,21 +17,17 @@ Having no idea about eCommerce and its working, here we guide you from the very 
 
 However, this term broadly encompasses various other activities, such as digital payments, internet banking, online auctions, dropshipping, marketing and more.
 
-eCommerce leverages technologies like electronic funds transfer (EFT), supply chain management (SCM), internet marketing, online transaction processing, inventory management, automated data collection systems, and more. By facilitating seamless and efficient transactions across the globe, eCommerce has revolutionized traditional commerce practices, making it easier for businesses and consumers to interact and conduct business online.
+eCommerce leverages technologies like electronic funds transfer (EFT), supply chain management (SCM), internet marketing, online transaction processing, inventory management, automated data collection systems, and more. By facilitating seamless and efficient electronic transactions across the globe, eCommerce has revolutionized traditional commerce practices, making it easier for businesses and consumers to interact and conduct business online.
 
-Okay now that you got to know about the ecommerce, lets now look at the client's high-level requirement:
-
-Techworld, an electronics retailer specilising in the latest tech gadgets, aims to expand its reach by launching an online store targeting tech-savvy consumers. It owns around 4k items in its store, it expects around 500-600 orders per day. Currently its looking for a single storefornts that could be accessed by 500 people per second. It needs a fresh integration of PIM, ERP, payment systems and other resources.
-
-Oh! This can be too overwhelming for someone starting new. So, I suggest you to take a tour of [ecommerce terminology](../../assets/ecommerce_terminologies.md) before we understand the concepts even better.
+Here is a business client : TekUniverse, an electronics retailer specilising in the latest tech gadgets, aims to expand its reach by launching an online store targeting tech-savvy consumers. It owns around 4k items in its store, it expects around 500 orders per day. Currently it is looking for a single storefornt that could be accessed by atleast 500 people per second. It needs a fresh integration of PIM, ERP, payment systems and other resources.
 
 Alright! After an initial consultation by the sales team with the agency to understand their vision, product range, and market goals, a plan is devised to create a user-friendly, secure, and responsive eCommerce platform.
 
-The development phase involves setting up essential features like inventory management, secure payment gateways, customer reviews, and marketing tools. While the design phase focuses on reflecting TechnoWorld's branding while ensuring easy navigation and high-quality product displays. 
+The development phase involves setting up the store and essential features like inventory management, secure payment gateways, customer reviews, marketing tools and more. While the design phase focuses on reflecting TekUniverse's branding while ensuring easy navigation and high-quality product displays. 
 
-Thorough testing ensures usability, security, and performance, leading to a successful launch of TechnoWorld's online store, offering a seamless shopping experience and broadening their customer base.
+Thorough testing ensures usability, security, and performance, leading to a successful launch of TekUniverse's online store, offering a seamless shopping experience and broadening their customer base.
 
-So based on the requirement, the business is a retail business model and so lets take a look at the different business models that Shopware offers and what suits the best in our scenario.
+Next, lets look at the different business models that Shopware offers and what suits the best in our scenario.
 
 ### Types of eCommerce models
 
@@ -47,18 +41,19 @@ Example: Amazon, where consumers can buy products directly from various brands a
 
 - D2C (Direct-to-Consumer) - Transactions where companies sell their products directly to consumers, bypassing traditional retail channels like wholesalers and retailers.
 
-Example: Warby Parker, an eyewear company that sells glasses directly to consumers through their website and physical stores, eliminating the need for intermediaries and offering a more personalized shopping experience.
+Example: Warby Parker, an eyewear company that sells glasses directly to consumers through their website and physical stores, eliminating the need for intermediaries.
 
-Thre are more other models but however, Shopware is compatible as B2B, B2C and D2C.
+There are more other models; however, Shopware is compatible as B2B, B2C and D2C.
 
-So as per the client's requirement, we can opt for B2C model.
+So as per the business requirement stated above, B2C model works for TekUniverse.
 
 ### eCommerce Platforms
 
-After deciding on the eCommerce model, you think of an eCommerce platform to build your online store.
+Next the business would wonder what kinda ecommerce platform can comply to TeckUniverse's requirements.
 
-eCommerce platforms are software solutions that enable businesses to create, manage, and operate online stores. They provide a wide range of functionalities, including website design, product management, shopping cart solutions, payment processing, and customer service tools. 
+eCommerce platforms are software solutions that enable businesses to create, manage, and operate online stores. These platforms provide the necessary tools for listing products, processing payments, handling orders, and managing customer relationships. They cater to a wide range of business models, from small startups to large enterprises, and often include features like customizable templates, SEO tools, and integration with other business systems like inventory management and shipping services, etc. 
 
-Shopware is one of the leading ecommerce platforms. Others include Shopify, Magento, eCommerceTools and more.
+Shopware is one of the leading ecommerce platforms. Others include Shopify, Magento, BigCommerce, Salesforce, WooCommerce and more.
 
-So the next unit will let you know why to choose Shopware.
+With these many options and more, why should you choose Shopware?
+Head to the next unit for better understanding.

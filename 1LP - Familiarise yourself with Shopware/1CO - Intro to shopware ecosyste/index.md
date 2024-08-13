@@ -1,7 +1,7 @@
 ---
 title: "Intro to Shopware ecosystem"
 slug: "intro-to-shopware-ecosystem"
-description: "This course is a fundamental for audience who have no idea about ecommerce word."
+description: "Fundamental course for audience on ecommerce ecosystem, Shopware product, plans, distribution models and extensions."
 icon: "/public/icon/foo.svg?" 
 visibility: "public"
 badge: {}
@@ -11,6 +11,6 @@ badge: {}
 
 You have chosen Shopware.  Congratulations! We are happy to welcome you as part of the community.
 
-To ensure a successful introduction to the world of Shopware, we'll guide you through the fundamental concepts and basics.
+To ensure a successful introduction to the world of Shopware, we will guide you through all the necessary concepts.
 
-So welcome to Shopware again and lets get started!
+So welcome home and lets get started!
