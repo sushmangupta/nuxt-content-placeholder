@@ -1,7 +1,7 @@
 ---
-title: ""
-slug: ""
-description: ""
+title: "Shopware features"
+slug: "shopware-features"
+description: "This section enlists  "
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
@@ -9,9 +9,9 @@ visibility: "public"
 
 # Shopware features
 
-Trendify, a thriving online fashion retailer, aims to enhance its e-commerce capabilities to better manage its expanding inventory and improve customer engagement. They choose Shopware for its comprehensive features and flexibility.
+As you know, TekUniverse, online retailer aims to enhance its e-commerce capabilities to better manage its expanding inventory and improve customer engagement. They have choosen Shopware for its comprehensive features and flexibility.
 
-So lets see what shopware offers:
+So lets see what Shopware offers:
 
 - [Flow Builder](https://docs.shopware.com/en/shopware-6-en/features/share-flows)
 - [Custom Products](https://docs.shopware.com/en/shopware-6-en/features/custom-products)
@@ -37,3 +37,7 @@ So lets see what shopware offers:
 - [Returns management](https://docs.shopware.com/en/shopware-6-en/orders/returns-management?category=shopware-6-en/features/commercial)
 - [B2B Components](https://docs.shopware.com/en/shopware-6-en/commercial-features/b2b-components?category=shopware-6-en/features/commercial)
 - [Digital Sales Rooms](https://docs.shopware.com/en/shopware-6-en/features/digital-sales-rooms)
+
+These features look interesting isn't it not?!
+
+Lets explore some of the prominent ecommerce features like product management, order management and so on in next units.

@@ -1,7 +1,7 @@
 ---
-title: ""
-slug: ""
-description: ""
+title: "Best Practices for Shopware Performance"
+slug: "best-practices-for-shopware-performance"
+description: "This section gives tips to optimize Shopware performance with caching, database tuning, and efficient server settings for faster and reliable store."
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"

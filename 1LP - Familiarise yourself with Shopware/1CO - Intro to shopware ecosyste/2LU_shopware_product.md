@@ -1,7 +1,7 @@
 ---
-title: "Why should you choose Shopware?"
+title: "Why choose Shopware?"
 slug: "shopware-product"
-description: "Max 256 characters of description, pure-text"
+description: "This course helps you understand the major advantage of opting Shopware and also with its advantage how its a best fit platform for TekUniverse's requirement. You also get to learn about Shopware technology."
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
@@ -55,7 +55,7 @@ With this, I think you are convinced that Shopware platform is a good fit. Now l
 
 ## What technologies are used in Shopware ?
 
-Shopware’s robust e-commerce capabilities are built on a foundation of innovative technologies that work together seamlessly. At its core, Shopware utilizes PHP, a widely-used scripting language for creating dynamic web content. The platform is built on the Symfony framework, a collection of reusable PHP components and libraries that streamline development and ensure the software remains scalable, maintainable, and extensible.
+Shopware’s robust e-commerce capabilities are built on a foundation of innovative technologies that work together seamlessly. At its core, Shopware utilizes PHP, a widely used scripting language for creating dynamic web content. The platform is built on the Symfony framework, a collection of reusable PHP components and libraries that streamline development and ensure the software remains scalable, maintainable, and extensible.
 
 To provide a responsive and interactive user interface, Shopware employs Vue.js and ExtJS, two popular JavaScript libraries. These libraries facilitate the creation of modern web applications, ensuring a seamless user experience on both the frontend and admin interface.
 

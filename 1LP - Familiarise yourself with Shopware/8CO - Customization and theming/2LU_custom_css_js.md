@@ -1,7 +1,7 @@
 ---
-title: ""
-slug: ""
-description: ""
+title: "Custom style - Shopwrae frontends"
+slug: "custom-styling"
+description: "This section describes personalization of your storefront by integrating custom branding elements, improving the visual consistency and overall professionalism of your online store."
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
