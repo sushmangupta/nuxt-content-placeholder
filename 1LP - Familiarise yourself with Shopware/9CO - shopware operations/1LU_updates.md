@@ -1,3 +1,12 @@
+---
+title: "Shopware Backup"
+slug: "shopware-backup"
+description: "This section describes types and ways to update Shopware with effective."
+icon: "" # svg, png? dark mode?
+authors: []
+visibility: "public"
+---
+
 # Update Shopware
 
 Your Shopware updates are essential for maintaining security, fixing bugs, and improving performance. They protect against new cyber threats by patching vulnerabilities, enhance the software's stability, and often introduce new features or optimizations. Regular updates also ensure compatibility with the latest technologies and compliance with legal requirements, helping to keep the software functional, secure, and up-to-date.

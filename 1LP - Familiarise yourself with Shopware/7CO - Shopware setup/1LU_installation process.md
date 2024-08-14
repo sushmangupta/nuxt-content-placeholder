@@ -1,23 +1,18 @@
 ---
-title: ""
-slug: ""
-description: ""
-icon: "" # svg, png? dark mode?
-authors: []
+title: "Shopware Local Installation"
+slug: "shopware-local-installation"
+description: "This section instructs you with Shopware installation on Mac OS."
+icon: "/public/icon/foo.svg?" 
 visibility: "public"
+badge: {}
 ---
 
-
-
 # Introduction
-
-Shopware can be installed on different OS like Windows, Linux and Mac. The following section gives you detailed installation via devenv.
 
 ::youtube-embed(link="https://www.youtube.com/watch?v=bcyu7RuXqMQ")
 ::
 
 This module will guide you through a clean-slate installation process of essential tools required for setting up Shopware. We assume no software beyond essentials like Chrome is installed on your system. By the end of this module, you will have a functional Shopware installed on your local machine using DevEnv.
-
  
 ## Installing essential tools : Visual Studio Code and iTerm2
 
@@ -184,7 +179,6 @@ Now the store is setup locally in your system. All that you could do next is to 
 ### Extending Shopware
 
 For further customization via plugins, apps, or themes, open Shopware file system in VS Code and refer to our [documentataion](https://developer.shopware.com/docs/)
-
 
 ### Stopping DevEnv
 
