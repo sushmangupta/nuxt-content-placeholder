@@ -48,4 +48,7 @@ Both systems have their strengths and weaknesses, and the choice of which one to
 
 
 
-# TODO add a short quiz to see which is better for what use case
+## Quiz
+
+# TODO help to get adequate questions from core team and add more info to apps
+

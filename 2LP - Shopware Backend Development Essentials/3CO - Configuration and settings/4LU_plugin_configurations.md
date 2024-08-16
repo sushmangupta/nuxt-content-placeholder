@@ -96,13 +96,13 @@ This could come in handy if you only want to show the banner on desktop and tabl
 If you want to explore all options, please visit our [official developer documentation](https://developer.shopware.com/docs/guides/plugins/plugins/plugin-fundamentals/add-plugin-configuration.html).
 
 
-Quiz: 
- is the purpose of the `config.xml` file in a Shopware plugin?
-    - [ ] To store the plugin's PHP code
-    - [x] To define the plugin's configuration
-    - [ ] To store the plugin's configuration
+## Quiz 
+1. What is the purpose of the `config.xml` file in a Shopware plugin?
+   [] To store the plugin's PHP code
+   [x] To define the plugin's configuration
+   [] To store the plugin's configuration
 2. Should components be placed before or after inputs?
-    - [ ] Before
-    - [x] After
+   [] Before
+   [x] After
 
 
