@@ -87,4 +87,24 @@ These files are used by Composer, a dependency management tool for PHP. The `com
 
 The `composer.json` is also your entrypoint if you want to add custom repositories for your internal composer packages (for example, your company Gitlab instance).
 
-# TODO any other important files?
+### .gitignore
+Depending on your deployment strategy, you might want to add some directories to the `.gitignore` file. For example, the `var/` directory should not be committed to the repository.
+
+
+## Quiz
+
+1. Where is your local cache stored?
+   [x] `var/cache`
+   [] `var/logs`
+   [] `var/sessions`
+   [] `var/tmp`
+2. What is the purpose of the `public` directory?
+    [] To store configuration files
+    [] To store the source code
+    [x] To store assets like images and stylesheets
+    [] To store logs
+3. Where should you place your plugins?
+    [] In the `config` directory
+    [] In the `src` directory
+    [x] In the `custom/plugins` directory
+    [] In the `var` directory

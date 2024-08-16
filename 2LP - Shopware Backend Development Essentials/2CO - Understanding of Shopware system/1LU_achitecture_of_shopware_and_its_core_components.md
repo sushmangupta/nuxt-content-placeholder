@@ -11,10 +11,11 @@ visibility: "public"
 
 By the end of this unit, you will be able to:
 
-- Know the core components of the Shopware system
-- Understand the architecture of Shopware
+- Know the core components of Shopware 6
+- Understand the architecture of Shopware 6
 - Recognize the role of each component in the system
 
+# Introduction
 Shopware is a highly flexible, powerful, and customizable eCommerce platform built on a technical stack that includes PHP, Elasticsearch, MySQL, and more. It follows a modular architecture, which means it's composed of several core components that work together to provide a comprehensive eCommerce solution. 
 
 All those components are connected, and interact with each other, to provide a seamless shopping experience for customers and an easy-to-use development environment for developers.
@@ -63,3 +64,23 @@ Shopware has a robust plugin system that allows developers to extend the platfor
 
 ### App System
 The App system is a newer way of extending Shopware. Apps are standalone applications that interact with Shopware via APIs. They do not have direct access to the Shopware core and cannot modify it. Instead, they use the APIs provided by Shopware to interact with the system. It is great for external data integrations.
+
+
+
+## Quiz
+1. What are possible ways to extend the functionality of Shopware?
+  [x] Using the Plugin system
+  [x] Using the App system
+  [] Using the CLI
+  [] Using the Database
+2. How many external APIs does Shopware provide?
+  [] 1
+  [x] 2
+  [] 3
+3. What is the primary database used by Shopware?
+  [] MongoDB
+  [x] MySQL
+  [] PostgreSQL
+  [] SQLite
+
+

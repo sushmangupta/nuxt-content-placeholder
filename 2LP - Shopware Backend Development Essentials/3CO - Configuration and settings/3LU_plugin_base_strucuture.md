@@ -11,9 +11,9 @@ visibility: "public"
 
 By the end of this unit, you will be able to:
 
-- Know where to place your custom code
+- Know where to place your plugin code
 - Generate a basic plugin structure via the Shopware CLI
-- Recognize where to place your custom code
+- Understand the main directories of a Shopware plugin
 
 # Introduction
 
@@ -38,8 +38,8 @@ Here's a brief overview of the main directories:
 │   │       └── page
 │   │           └── product-detail
 │   │               └── my_plugin.html.twig
-│   └── translations
-│       └── en-GB
+│   └── snippet
+│       └── en_GB
 │           └── storefront
 │               └── my_plugin.en-GB.json
 ├── composer.json
@@ -57,7 +57,7 @@ Shopware comes with a powerful CLI that also helps you with the creation of plug
 bin/console plugin:create
 ```
 
-This command will ask you the plugin name, namespace, and more. After answering the questions, the CLI will generate the plugin structure for you.
+This command will interactively ask you for the plugin name, namespace, and what kind of code should be generated. After answering the questions, the CLI will generate the plugin structure for you.
 
 
 ```shell
@@ -184,11 +184,86 @@ class MyPlugin extends Plugin
 
 You did it, the plugin is now available in the administration panel and can be installed and activated. In the next learning unit, we will go through the possible plugin configurations.
 
-If you are already familiar with the CLI you can also install and activate the plugin via the CLI:
+If you are already familiar with the CLI you can also install and activate the plugin with it.
 
 ```shell
 bin/console plugin:install --activate MyPlugin
 ```
+
+## View and translation files
+
+The `Resources/views` directory contains the plugin's view files. They contain all the `.twig` files that are used to render the plugin's output in the storefront. 
+
+:::info
+Twig is a versatile template engine for PHP. It is used in Shopware to render HTML output.
+:::
+
+Official documentation: [Twig](https://twig.symfony.com/)
+
+The `Resources/snippet` directory contains translation files for the plugin. Adding those files will allow you to translate the plugin into different languages and can open up your plugin to a broader audience.
+
+
+## Config folder and service.xml    
+The service.xml file in the `Resources/config` directory contains the plugin's service definitions. It is used to define services that are used by the plugin.
+
+For example, you can listen to events and react to them. Or you can define services like adding a custom controller to the storefront.
+
+```xml
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="Swag\MyPlugin\Service\AddDataToPage">
+            <tag name="kernel.event_subscriber"/>
+        </service>
+
+        <service id="Swag\MyPlugin\Storefront\Controller\ExampleController" public="true">
+            <call method="setContainer">
+                <argument type="service" id="service_container"/>
+            </call>
+            <call method="setTwig">
+                <argument type="service" id="twig"/>
+            </call>
+        </service>
+
+    </services>
+
+</container>
+```
+
+## Composer.json file
+The composer.json file in the plugin root directory contains metadata about the plugin, such as its name, version, and dependencies. It is used by Composer to manage the plugin's dependencies and autoloading.
+
+```json
+{
+  "name": "MyPlugin",
+  "type": "shopware-platform-plugin",
+  "description": "My first Shopware plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "shopware/core": "~6.6.0"
+  },
+  "extra": {
+    "shopware-plugin-class": "MyPlugin",
+    "label": {
+      "de-DE": "Skeleton plugin",
+      "en-GB": "Skeleton plugin"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "MyPlugin\\": "src/"
+    }
+  }
+}
+```
+
+
+## Plugin commands
 
 :::info
 Getting all commands for the plugin CLI is easy, just run `bin/console plugin` and you will get a list of all available commands.
@@ -208,3 +283,22 @@ Available commands for the "plugin" namespace:
   plugin:zip-import  Imports a plugin from a zip file
 ```
 
+
+## Quiz
+
+1. Can I install a plugin without the administration panel?
+  [x] Yes
+  [] No
+2. What is the purpose of the `Resources/views` directory?
+  [] To store translation files
+  [x] To store view files
+  [] To store configuration files
+3. What is the purpose of the `Resources/config/services.xml` file?
+  [] To configure packages used by the plugin
+  [x] To define services used by the plugin
+  [] There is no such file
+4. What is the purpose of the `composer.json` file in a plugin?
+  [x] To define the plugin's dependencies
+  [] To define the plugin's services
+  [] To define the plugin's views
+  [x] Add metadata to the plugin
