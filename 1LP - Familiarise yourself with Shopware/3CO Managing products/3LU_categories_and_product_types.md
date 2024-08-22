@@ -5,7 +5,12 @@ description: ""
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should understand the possibilities within Shopware to organize products."
 ---
+
+### Sales Channels
+
+In Shopware, the most basic concept of howe products are displayed to the shopper is sales channels. The technical concept and the features will be explained in-depth in another lesson. It's important to understand that a sales channel is mapped to a domain (or subdomain or url) and if you have multiple sales channels, which products are shown and the language and design of the store can be indivivual for every sales channel you create. Meaning, Shopware can handle multiple stores for one catalogue of products.
 
 ### Defining categories
 
@@ -20,7 +25,7 @@ The next step is to enter products and assign them to your categories. Shopware 
 * regular physical products
 * products with variants (one cannot sell a t-shirt without a size and a color)
 * intengable products like learning courses or even
-* downloadable products (music, software, etc)
+* digital products (downloadable products) (music, software, etc)
 
 Before starting to enter products, make sure you thought about what kind of products you want to sell. For several reasons, it doesn't make sense to enter different variants which only devite by color, size, weight or price as regular physical product each. Instead, consider to group them in products with variants and let the client decide which "flavor" of this product he wants to purchase.
 

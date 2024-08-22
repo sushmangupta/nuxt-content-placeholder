@@ -5,6 +5,7 @@ description: ""
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should understand the available methods of adding product data to Shopware."
 ---
 
 ## Stuffing the catalog part of your online shop via administration panel

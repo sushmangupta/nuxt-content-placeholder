@@ -5,9 +5,8 @@ description: ""
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should understand the extend to which Shopware is capable of SEO optimizing the Storefront."
 ---
-
-### Useful hints
 
 Here are some more hints to make the most out of your project when entering products:
 

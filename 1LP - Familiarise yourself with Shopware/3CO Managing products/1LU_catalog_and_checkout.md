@@ -5,6 +5,7 @@ description: ""
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should understand the fundamental components that make the difference between a website an online store."
 ---
 
 ## The catalog part of an online shop
