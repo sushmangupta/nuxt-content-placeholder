@@ -5,6 +5,7 @@ description: "This course is about the various plans that Shopware offers and "
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should understand how Shopware as a company finances itself and what advantages booking a plan brings in addition to the actual features."
 ---
 
 # Shopware plans

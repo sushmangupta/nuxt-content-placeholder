@@ -5,6 +5,7 @@ description: "This unit is a short understanding on distribution models and its 
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should get to know the different hosting options and thus understand the versatility of Shopware"
 ---
 
 # Shopware distribution models

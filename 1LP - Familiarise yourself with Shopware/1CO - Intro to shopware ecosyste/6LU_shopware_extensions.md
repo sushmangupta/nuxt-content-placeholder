@@ -5,6 +5,7 @@ description: "This section helps you understand the concept of Shopware extensio
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should get to know the basic concept of Shopware's expandability and understand the advantages it offers."
 ---
 
 # Shopware Extensions

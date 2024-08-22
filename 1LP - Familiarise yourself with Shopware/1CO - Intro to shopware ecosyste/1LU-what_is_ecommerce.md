@@ -5,6 +5,7 @@ description: "Max 256 characters of description, pure-text"
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should gain a differentiated understanding of how Shopware understands the eCommerce landscape and what technical landscape currently exists."
 ---
 
 # Introduction

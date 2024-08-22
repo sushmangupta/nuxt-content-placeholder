@@ -5,6 +5,7 @@ description: "This course gives an idea od Shopware's oen source nature. It also
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should understand the advantages of Shopware being open source and what vendor-driven open source means in the context of eCommerce and Shopware."
 ---
 
 # Shopware, an Opensource platform

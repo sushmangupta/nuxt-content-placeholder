@@ -5,6 +5,7 @@ description: "This section is a dedicated space to explain why one need to opt o
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
+goal: "The target group should be able to classify the situations in which the app system currently has advantages over the plug-in system and how it will develop in the future."
 ---
 
 # Why you should app ?
