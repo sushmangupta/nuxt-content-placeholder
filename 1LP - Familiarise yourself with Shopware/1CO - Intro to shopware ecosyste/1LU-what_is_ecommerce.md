@@ -8,6 +8,9 @@ visibility: "public"
 goal: "The target group should gain a differentiated understanding of how Shopware understands the eCommerce landscape and what technical landscape currently exists."
 ---
 
+The target group should gain a differentiated understanding of how Shopware understands the eCommerce landscape and what technical landscape currently exists. The eCommerce landscape in this context means shop systems, PIM, ERP, and payment providers. The technical component targets the topic of different hosting types, architectures and the flexibility Shopware provides.
+
+
 # Introduction
 
 Imagine you have newly joined a small startup company as a developer. Your team has a task to build an ecommerce store for a client, TekUniverse. Having no idea about eCommerce and its working, here we guide you from the very basics on how to start this project. So lets get going!

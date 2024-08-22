@@ -5,7 +5,7 @@ description: "This course helps you understand the major advantage of opting Sho
 icon: "" # svg, png? dark mode?
 authors: []
 visibility: "public"
-goal: "The target group should be able to classify Shopware in the existing eCommerce landscape and get a feeling for the scenarios in which the use of Shopware brings advantages."
+goal: "The target group should understand the Shopware ecosystem and how it fits into the existing market."
 ---
 
 # Why choose Shopware ?
