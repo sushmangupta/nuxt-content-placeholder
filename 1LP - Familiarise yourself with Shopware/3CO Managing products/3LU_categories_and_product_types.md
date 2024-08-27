@@ -10,7 +10,9 @@ goal: "The target group should understand the possibilities within Shopware to o
 
 ### Sales Channels
 
-In Shopware, the most basic concept of howe products are displayed to the shopper is sales channels. The technical concept and the features will be explained in-depth in another lesson. It's important to understand that a sales channel is mapped to a domain (or subdomain or url) and if you have multiple sales channels, which products are shown and the language and design of the store can be indivivual for every sales channel you create. Meaning, Shopware can handle multiple stores for one catalogue of products.
+In Shopware, the most basic concept of how products are displayed to the visitor of the website is Sales Channels. The technical concept and the features will be explained in-depth in another lesson. It's important to understand that each sales channel is mapped to a certain domain, subdomain or URL.
+
+If you run multiple Sales Channels you can define, which products are shown in it. Also, the language and design of the store can be indivivual for every Sales Channel you create. Meaning, Shopware can handle multiple stores for one catalogue of products.
 
 ### Defining categories
 
@@ -20,12 +22,14 @@ An example: let's say, you are selling furnishing fabrics. It doesn't make sense
 
 ### Entering products
 
-The next step is to enter products and assign them to your categories. Shopware allows you to use several types of products. Think of
+The next step is to enter products and assign them to your categories. Shopware allows you to use several types of products.
+
+Think of
 
 * regular physical products
 * products with variants (one cannot sell a t-shirt without a size and a color)
 * intengable products like learning courses or even
-* digital products (downloadable products) (music, software, etc)
+* digital products (AKA downloadable products) such as music, software, etc.
 
 Before starting to enter products, make sure you thought about what kind of products you want to sell. For several reasons, it doesn't make sense to enter different variants which only devite by color, size, weight or price as regular physical product each. Instead, consider to group them in products with variants and let the client decide which "flavor" of this product he wants to purchase.
 

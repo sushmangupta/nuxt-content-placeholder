@@ -18,35 +18,30 @@ The properties you create through the administration are the base for generating
 
 You can create custom properties like fabric or anything you can think of. The same is true for the values of said properties.
 
-At first, the creation of properties is not specific for one product, but instead you create a general property and then it tis assigned to one or more products.
+At first, the creation of properties is not specific for one product but instead, you create a general property which can be assigned to one or more products.
 
 ### Product variants
 
-Once a product has properties, you can generate variants from it which is automatically done by Shopware if you create products through the administration.
+Once a product has properties assigned, you can generate variants from it which is automatically done by Shopware if you create products through the administration.
 
 The first product is the main variant, which has implications on how the product and its variants is displayed in the store. Each variant is treated as seperate product inside Shopware, has a seperate product number and can be customized individually.
 
+### Product presentation
+
+It is super important for the conversion rate (how many visitors you turned into actual buyers) of your online store how you present your product items. Not only a catchy title, but also a meaningful and informative description of each and every product is essential: make sure you not only take over product specifications but also define different descriptions also for product variants, if possible. Shopware offers you all of the necessary tools to achieve this behaviour - however, you are responsible for the content.
+
 ### Product media: more than images
 
-> Product presentation!
+Additionally, product media such as product images, make your trading goods more "touchable" for a prospect client: they will love to see if you make every trifle visible.
 
-* product images are super important for product presentation!
-* prospect clients will love to see every angle of the product!
-* Shopware allowes you to upload [TBD] images per product
-* consider to use zoom to your product images
-* consider to use 360°images of your product images
+Shopware comes with a Media Library for this approach where you can upload and assign media (not only images) to your product items. Consider to upload as many as reasonable product media, including zoom functionality or even 360° images of your product.
 
 ### Scale units
 
-Shopware has the important scale units already built in, and it is used internally for different purposes.
+Why to maintain scale units when entering products in Shopware you ask? Of course, some of your entries will never be used directly in the front page of your store to be presented to potential clients. Instead, properties like Scale Units might be utilized for the calculation of shipping prices.
 
-### Using the Rule Builder with properties
+Probably the weight of a product item is the easiest way to accomplish what you want to achieve. On the other hand, carriers might charge you on the basis of volumetric weight or even girth (both calculated by usage of length, width and hight) of your shipment parcel.
 
-* What is the rule builder
-* for avarage products, enter a weight to it so you can configure shipping costs via the Rule Builder implemented into Shopware
-* it gets more complex when a product has less weight then it is big: Carrier rules.
-* Also this, can be applicated with the rule builder when it comes towards you have to ship a cradle of feathers which is no weight against its real measures.
-* In this case, L x W x H devided by 6000 (dev by 5000 for international shipment) comes into the game.
-* The rule builder can also be used with custom properties
+When entering these values to the product, you can easily instruct the Rule Builder (you will read more about it later) to compute these complex calculations for shipping cost rules.
 
 (* Limitations: DIY products and surface calculation)
