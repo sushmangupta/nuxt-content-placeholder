@@ -44,4 +44,10 @@ Probably the weight of a product item is the easiest way to accomplish what you 
 
 When entering these values to the product, you can easily instruct the Rule Builder (you will read more about it later) to compute these complex calculations for shipping cost rules.
 
-(* Limitations: DIY products and surface calculation)
+### Limitations unlimited
+
+Shopware is a standard software and is not supposed to apply each and every business case. However, it is highly extendable without loosing it's possibility to update via extensions (e.g. plugins or apps, you have heard about it in another lesson before). 
+
+One way is to find a suitable extension which resolves your issue in [Shopware store](https://store.shopware.com). If you cannot find your solution, you (as a developer) can also create your own extension. In this case, please consider to make your extension available for others in Shopware Store or to place it on GitHub with the tag _shopware6-plugin_.
+
+Here is a good example where solving of such issues with DIY products and surface calculation have been described: [https://www.shopware.com/en/news/teaching-shopware-6-time-and-spaces/](https://www.shopware.com/en/news/teaching-shopware-6-time-and-spaces/).
